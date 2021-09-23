@@ -1,0 +1,111 @@
+<html>
+<head>
+  <title>Formulario</title>
+</head>
+<body>
+	<br/>
+	<br/>
+	<br/>
+	<form id="formulario" method="GET" action="E-mail:jsonmoskra@gmai.com">
+	<table width="50%" align="center" border="0">
+		<caption><h1>FORMULARIO</h1></caption>
+		<tr>
+			<td width="120">Nombre</td>
+			<td width="20">:</td>
+			<td ><input type="text" id="nombre" name="nombre" style="width: 100%"></td>
+		</tr>
+		<tr>
+			<td >Apellidos</td>
+			<td >:</td>
+			<td ><input type="text" id="apellidos" name="apellidos" style="width: 100%"></td>
+		</tr>
+
+		<tr>
+			<td >Tipo de documento</td>
+			<td >:</td>
+			<td ><select id="expe" name="expe" style="width: 100%">
+				<option value="1">Cedula de ciudadanía</option>
+			<option value="2">Tarjeta de identidad</option>
+			<option value="3">Cedula extranjera</option></select>
+		</tr>
+
+		<tr>
+			<td >Documento</td>
+			<td >:</td>
+			<td ><input type="text" id="documento" name="documento" style="width: 100%"></td>
+		</tr>
+		
+		<tr>
+			<td >Sexo</td>
+			<td >:</td>
+			<td width="500"><input type="radio" id="sexo" name="sexo" value="f">Femenino
+			<input type="radio" id="sexo" name="sexo" value="m">Masculino
+			<input type="radio" id="sexo" name="sexo" value="n">No identificado</td>
+		</tr>
+		<tr>
+			<td >Telefono</td>
+			<td >:</td>
+			<td ><input type="text" id="tel" name="tel" style="width: 100%"></td>
+		</tr>
+		<tr>
+			<td >E-mail</td>
+			<td >:</td>
+			<td ><input type="text" id="e-mail" name="e-mail" style="width: 100%"></td>
+		</tr>
+		
+
+		<tr>
+			<td >Crear Usuario</td>
+			<td >:</td>
+			<td ><input type="text" id="usu" name="usu" style="width: 100%" placeholder="Usuario@ejemplo.com"></td>			
+		</tr>
+		<tr>
+			<td >Contraseña</td>
+			<td >:</td>
+			<td ><input type="password" id="con" name="con" style="width: 100%" placeholder="MInimo (8) caracteres"></td>			
+		</tr>
+		<tr>
+			<td width="700">Confirmar contraseña</td>
+			<td >:</td>
+			<td ><input type="password" id="conf" name="conf" style="width: 100%" ></td>			
+		</tr>
+
+		<tr>
+			<td >¿Le gusta nuestro servicio?</td>
+			<td >:</td>
+			<td ><input type="radio" id="trabaja" name="trabaja" value="si">Si
+			<input type="radio" id="trabaja" name="trabaja" value="no">No
+			<input type="radio" id="trabaja" name="trabaja" value="a veces">Regular</td>
+		</tr>
+		<tr>
+			<td width="700">¿De 1 a 10, Que tal le parecio nuestro servicio?</td>
+			<td >:</td>
+			<td ><select id="sem" name="sem" style="width: 100%">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+		</tr>	
+		<tr>
+			<td >Sugerencias</td>
+			<td >:</td>
+			<td ><textarea id="suge" name="suge"  placeholder="Aqui puedes comentar tus sugerencias!" style="width: 100%"></textarea></td>		
+		</tr>
+		<tr>
+			<td colspan="3" align="center" >
+				<input type="reset" value="Resetear">
+				<input type="submit" value="Enviar">
+			</td>			
+		</tr>
+
+
+	</table>
+	</form>
+
+</body>
